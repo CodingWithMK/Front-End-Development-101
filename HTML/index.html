@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WallpaperGallery</title>
+</head>
+
+<body>
+    <h2>WallpaperApp</h2>
+    <main>
+        <h3>Wallpapers</h3>
+        <!-- TODO: Add link to photos -->
+        <p>Click here to view more
+            <a href="https://wallpapersden.com/" target="_blank">Wallpapers</a>.
+        </p>
+        <a href="https://wallpapersden.com/4k-the-sunset-to-aspire-wallpaper/" target="_blank">The Sunset to Aspire</a>
+        <img src="wallpapersden.com_k-the-sunset-to-aspire_3840x2160.jpg"
+            alt="An awesome view of a sunset.">
+        <h3>Wallpaper Lists</h3>
+        <div class="lists">
+            <p>Milky Way <em>Wallpapers</em></p>
+            <ul>
+                <li>Country View</li>
+                <li>View To The Sky</li>
+                <li>Mountain View</li>
+            </ul>
+            <img src="wallpapersden.com_milky-way-adventures-night-road_1927x1080.jpg" alt="Country Road">
+
+            <p><strong>Features</strong> of the Wallpaper:</p>
+            <ol>
+                <li>Milky Way</li>
+                <li>Mountains</li>
+                <li>Forest in Foreground</li>
+            </ol>
+        </div>
+        <img src="wallpapersden.com_milky-way-hd-mountains-starry-night-new_2912x1632.jpg" alt="Mountain View">
+        <form action="/submit-wallpaper">
+            <label for="day"><input id="day" type="radio" name="day-night"> Day</label><br>
+            <label for="night"><input id="night" type="radio" name="day-night"> Night</label><br>
+
+            <label for="nature"><input id="nature" type="checkbox" name="nature-wallpaper">Nature Wallpaper?</label><br>
+            <label for="fantastic"><input id="fantastic" type="checkbox" name="fantastic-wallpaper">Fanstastic Wallpaper?</label><br>
+            <label for="futuristic"><input id="futuristic" type="checkbox" name="futuristic-wallpaper">Futuristic Wallpaper?</label><br>
+            
+            <input type="text" placeholder="Wallpaper URL" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><small>No Copyright - WallpaperGallery</small></p>
+    </footer>
+</body>
+
+</html>
